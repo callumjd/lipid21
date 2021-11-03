@@ -1,0 +1,8 @@
+source leaprc.protein.ff19SB
+source leaprc.water.tip3p
+source leaprc.lipid21
+loadamberparams frcmod.ionsff99_tip3p
+mol = loadpdb input_POPA_128.pdb
+set mol box {62.972312 63.234721 74.597411}
+saveamberparm mol POPA_128.prmtop POPA_128.inpcrd
+quit

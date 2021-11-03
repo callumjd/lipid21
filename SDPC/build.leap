@@ -1,0 +1,8 @@
+source leaprc.protein.ff19SB
+source leaprc.water.tip3p
+source leaprc.lipid21
+loadamberparams frcmod.ionsff99_tip3p
+mol = loadpdb input_SDPC_128.pdb
+set mol box {63.605455 63.935849 78.272297}
+saveamberparm mol SDPC_128.prmtop SDPC_128.inpcrd
+quit
