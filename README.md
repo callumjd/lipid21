@@ -2,7 +2,7 @@
 
 Lipid21 parameters as described in:
 
-Dickson, C.J., Walker, R.C., Gould, I.R. Lipid21: Complex Lipid Membrane Simulations with AMBER, Submitted, 2021.
+Dickson, C.J., Walker, R.C., Gould, I.R. Lipid21: Complex Lipid Membrane Simulations with AMBER, JCTC, 2022 (https://pubs.acs.org/doi/10.1021/acs.jctc.1c01217)
 
 Inside "lipid21" you will find:
 - leaprc.lipid21
